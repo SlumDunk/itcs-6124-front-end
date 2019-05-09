@@ -36,6 +36,10 @@
       <i class="iconfont icon-chazhaobiaodanliebiao"></i>
       <span>task 8</span>
     </router-link>
+    <router-link to="/wiki" style="text-align: -webkit-center">
+      <i class="iconfont icon-chazhaobiaodanliebiao"></i>
+      <span>wiki</span>
+    </router-link>
   </div>
 </template>
 

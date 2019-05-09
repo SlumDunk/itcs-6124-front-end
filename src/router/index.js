@@ -54,6 +54,11 @@ export default new Router({
       component: () => import('../components/Task8.vue'),
       meta: {title: 'Task 8'}
     },
+    {
+      path: '/wiki',
+      component: () => import('../components/Wiki.vue'),
+      meta: {title: 'Wiki Space'}
+    },
     {path: '*', redirect: '/home'}
   ]
 })
